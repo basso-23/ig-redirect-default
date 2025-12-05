@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Default redirect",
+  title: "Redirigiendo...",
 };
 
 export default function RootLayout({ children }) {
