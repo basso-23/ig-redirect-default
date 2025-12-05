@@ -1,8 +1,9 @@
-export default function Home({ searchParams }) {
-  const displayName = searchParams.name || "carlos";
+export default async function Home({ searchParams }) {
+  const params = await searchParams;
+  const displayUrl = params.url || "Url";
   return (
     <div className="page-container">
-      <div>{displayName}</div>
+      <div>{displayUrl}</div>
     </div>
   );
 }
